@@ -1,0 +1,660 @@
+[INFO ] 2026-07-12 16:54:13.380 [main] BaseClass:18 - ========== SUITE EXECUTION STARTED ==========
+[INFO ] 2026-07-12 16:54:13.399 [TestNG-tests-1] TestListener:53 - Test Suite Started: Chrome Tests - Login
+[INFO ] 2026-07-12 16:54:13.399 [TestNG-tests-2] TestListener:53 - Test Suite Started: Chrome Tests - Home
+[INFO ] 2026-07-12 16:54:13.399 [TestNG-tests-1] TestListener:54 - Number of tests: 2
+[INFO ] 2026-07-12 16:54:13.399 [TestNG-tests-2] TestListener:54 - Number of tests: 8
+[INFO ] 2026-07-12 16:54:13.410 [TestNG-tests-2] BaseClass:25 - Initializing WebDriver for browser: chrome
+[INFO ] 2026-07-12 16:54:13.411 [TestNG-tests-1] BaseClass:25 - Initializing WebDriver for browser: chrome
+[INFO ] 2026-07-12 16:54:27.824 [TestNG-tests-1] TestListener:21 - Test Started: testValidLogin
+[INFO ] 2026-07-12 16:54:27.824 [TestNG-tests-1] TestListener:22 - Test Description: Verify login with valid credentials
+[INFO ] 2026-07-12 16:54:27.824 [TestNG-tests-2] TestListener:21 - Test Started: testHomePageLoadsSuccessfully
+[INFO ] 2026-07-12 16:54:27.824 [TestNG-tests-2] TestListener:22 - Test Description: Verify home page loads successfully after login
+[WARN ] 2026-07-12 16:54:27.824 [TestNG-tests-1] TestListener:47 - Test Skipped: testValidLogin
+[WARN ] 2026-07-12 16:54:27.824 [TestNG-tests-2] TestListener:47 - Test Skipped: testHomePageLoadsSuccessfully
+[WARN ] 2026-07-12 16:54:27.824 [TestNG-tests-1] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[WARN ] 2026-07-12 16:54:27.826 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:27.837 [TestNG-tests-1] TestListener:21 - Test Started: testInvalidLogin
+[INFO ] 2026-07-12 16:54:27.837 [TestNG-tests-1] TestListener:22 - Test Description: Verify login with invalid credentials
+[WARN ] 2026-07-12 16:54:27.839 [TestNG-tests-1] TestListener:47 - Test Skipped: testInvalidLogin
+[WARN ] 2026-07-12 16:54:27.839 [TestNG-tests-1] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:27.843 [TestNG-tests-1] TestListener:59 - Test Suite Finished: Chrome Tests - Login
+[INFO ] 2026-07-12 16:54:27.843 [TestNG-tests-1] TestListener:60 - Passed: 0, Failed: 0, Skipped: 2
+[INFO ] 2026-07-12 16:54:27.855 [TestNG-tests-2] TestListener:21 - Test Started: testInventoryItemsAreDisplayed
+[INFO ] 2026-07-12 16:54:27.856 [TestNG-tests-2] TestListener:22 - Test Description: Verify inventory items are displayed
+[WARN ] 2026-07-12 16:54:27.856 [TestNG-tests-2] TestListener:47 - Test Skipped: testInventoryItemsAreDisplayed
+[WARN ] 2026-07-12 16:54:27.858 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:27.871 [TestNG-tests-2] TestListener:21 - Test Started: testAddItemToCart
+[INFO ] 2026-07-12 16:54:27.871 [TestNG-tests-2] TestListener:22 - Test Description: Verify add item to cart from home page
+[WARN ] 2026-07-12 16:54:27.881 [TestNG-tests-2] TestListener:47 - Test Skipped: testAddItemToCart
+[WARN ] 2026-07-12 16:54:27.881 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:27.892 [TestNG-tests-2] TestListener:21 - Test Started: testSortItems
+[INFO ] 2026-07-12 16:54:27.893 [TestNG-tests-2] TestListener:22 - Test Description: Verify sorting functionality on home page
+[WARN ] 2026-07-12 16:54:27.893 [TestNG-tests-2] TestListener:47 - Test Skipped: testSortItems
+[WARN ] 2026-07-12 16:54:27.894 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:27.907 [TestNG-tests-2] TestListener:21 - Test Started: testNavigateToCart
+[INFO ] 2026-07-12 16:54:27.907 [TestNG-tests-2] TestListener:22 - Test Description: Verify navigation to cart from home page
+[WARN ] 2026-07-12 16:54:27.907 [TestNG-tests-2] TestListener:47 - Test Skipped: testNavigateToCart
+[WARN ] 2026-07-12 16:54:27.907 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:27.917 [TestNG-tests-1] TestListener:53 - Test Suite Started: Firefox Tests
+[INFO ] 2026-07-12 16:54:27.917 [TestNG-tests-1] TestListener:54 - Number of tests: 10
+[INFO ] 2026-07-12 16:54:27.919 [TestNG-tests-1] BaseClass:25 - Initializing WebDriver for browser: firefox
+[INFO ] 2026-07-12 16:54:27.919 [TestNG-tests-2] TestListener:21 - Test Started: testAddMultipleItemsToCart
+[INFO ] 2026-07-12 16:54:27.919 [TestNG-tests-2] TestListener:22 - Test Description: Verify multiple items can be added to cart
+[WARN ] 2026-07-12 16:54:27.921 [TestNG-tests-2] TestListener:47 - Test Skipped: testAddMultipleItemsToCart
+[WARN ] 2026-07-12 16:54:27.921 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:27.937 [TestNG-tests-2] TestListener:21 - Test Started: testHomePageTitle
+[INFO ] 2026-07-12 16:54:27.937 [TestNG-tests-2] TestListener:22 - Test Description: Verify home page title
+[WARN ] 2026-07-12 16:54:27.937 [TestNG-tests-2] TestListener:47 - Test Skipped: testHomePageTitle
+[WARN ] 2026-07-12 16:54:27.939 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:27.958 [TestNG-tests-2] TestListener:21 - Test Started: testLogoutFromHomePage
+[INFO ] 2026-07-12 16:54:27.958 [TestNG-tests-2] TestListener:22 - Test Description: Verify logout functionality from home page
+[WARN ] 2026-07-12 16:54:27.958 [TestNG-tests-2] TestListener:47 - Test Skipped: testLogoutFromHomePage
+[WARN ] 2026-07-12 16:54:27.958 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:27.962 [TestNG-tests-2] TestListener:59 - Test Suite Finished: Chrome Tests - Home
+[INFO ] 2026-07-12 16:54:27.962 [TestNG-tests-2] TestListener:60 - Passed: 0, Failed: 0, Skipped: 8
+[INFO ] 2026-07-12 16:54:27.978 [TestNG-tests-2] TestListener:53 - Test Suite Started: Smoke Tests
+[INFO ] 2026-07-12 16:54:27.978 [TestNG-tests-2] TestListener:54 - Number of tests: 10
+[INFO ] 2026-07-12 16:54:27.980 [TestNG-tests-2] BaseClass:25 - Initializing WebDriver for browser: chrome
+[INFO ] 2026-07-12 16:54:29.136 [TestNG-tests-2] TestListener:21 - Test Started: testValidLogin
+[INFO ] 2026-07-12 16:54:29.138 [TestNG-tests-2] TestListener:22 - Test Description: Verify login with valid credentials
+[WARN ] 2026-07-12 16:54:29.138 [TestNG-tests-2] TestListener:47 - Test Skipped: testValidLogin
+[WARN ] 2026-07-12 16:54:29.138 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:29.163 [TestNG-tests-2] TestListener:21 - Test Started: testHomePageLoadsSuccessfully
+[INFO ] 2026-07-12 16:54:29.163 [TestNG-tests-2] TestListener:22 - Test Description: Verify home page loads successfully after login
+[WARN ] 2026-07-12 16:54:29.167 [TestNG-tests-2] TestListener:47 - Test Skipped: testHomePageLoadsSuccessfully
+[WARN ] 2026-07-12 16:54:29.167 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:29.179 [TestNG-tests-2] TestListener:21 - Test Started: testInvalidLogin
+[INFO ] 2026-07-12 16:54:29.179 [TestNG-tests-2] TestListener:22 - Test Description: Verify login with invalid credentials
+[WARN ] 2026-07-12 16:54:29.181 [TestNG-tests-2] TestListener:47 - Test Skipped: testInvalidLogin
+[WARN ] 2026-07-12 16:54:29.181 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:29.199 [TestNG-tests-2] TestListener:21 - Test Started: testInventoryItemsAreDisplayed
+[INFO ] 2026-07-12 16:54:29.201 [TestNG-tests-2] TestListener:22 - Test Description: Verify inventory items are displayed
+[WARN ] 2026-07-12 16:54:29.203 [TestNG-tests-2] TestListener:47 - Test Skipped: testInventoryItemsAreDisplayed
+[WARN ] 2026-07-12 16:54:29.204 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:29.235 [TestNG-tests-2] TestListener:21 - Test Started: testAddItemToCart
+[INFO ] 2026-07-12 16:54:29.236 [TestNG-tests-2] TestListener:22 - Test Description: Verify add item to cart from home page
+[WARN ] 2026-07-12 16:54:29.238 [TestNG-tests-2] TestListener:47 - Test Skipped: testAddItemToCart
+[WARN ] 2026-07-12 16:54:29.238 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:29.346 [TestNG-tests-2] TestListener:21 - Test Started: testSortItems
+[INFO ] 2026-07-12 16:54:29.348 [TestNG-tests-2] TestListener:22 - Test Description: Verify sorting functionality on home page
+[WARN ] 2026-07-12 16:54:29.348 [TestNG-tests-2] TestListener:47 - Test Skipped: testSortItems
+[WARN ] 2026-07-12 16:54:29.348 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:29.382 [TestNG-tests-2] TestListener:21 - Test Started: testNavigateToCart
+[INFO ] 2026-07-12 16:54:29.382 [TestNG-tests-2] TestListener:22 - Test Description: Verify navigation to cart from home page
+[WARN ] 2026-07-12 16:54:29.384 [TestNG-tests-2] TestListener:47 - Test Skipped: testNavigateToCart
+[WARN ] 2026-07-12 16:54:29.384 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:29.414 [TestNG-tests-2] TestListener:21 - Test Started: testAddMultipleItemsToCart
+[INFO ] 2026-07-12 16:54:29.414 [TestNG-tests-2] TestListener:22 - Test Description: Verify multiple items can be added to cart
+[WARN ] 2026-07-12 16:54:29.419 [TestNG-tests-2] TestListener:47 - Test Skipped: testAddMultipleItemsToCart
+[WARN ] 2026-07-12 16:54:29.420 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:29.449 [TestNG-tests-2] TestListener:21 - Test Started: testHomePageTitle
+[INFO ] 2026-07-12 16:54:29.449 [TestNG-tests-2] TestListener:22 - Test Description: Verify home page title
+[WARN ] 2026-07-12 16:54:29.461 [TestNG-tests-2] TestListener:47 - Test Skipped: testHomePageTitle
+[WARN ] 2026-07-12 16:54:29.461 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:29.487 [TestNG-tests-2] TestListener:21 - Test Started: testLogoutFromHomePage
+[INFO ] 2026-07-12 16:54:29.489 [TestNG-tests-2] TestListener:22 - Test Description: Verify logout functionality from home page
+[WARN ] 2026-07-12 16:54:29.489 [TestNG-tests-2] TestListener:47 - Test Skipped: testLogoutFromHomePage
+[WARN ] 2026-07-12 16:54:29.497 [TestNG-tests-2] TestListener:48 - Skip Reason: Cannot invoke "com.framework.config.ConfigReader.getProperty(String)" because "this.configReader" is null
+[INFO ] 2026-07-12 16:54:29.510 [TestNG-tests-2] TestListener:59 - Test Suite Finished: Smoke Tests
+[INFO ] 2026-07-12 16:54:29.510 [TestNG-tests-2] TestListener:60 - Passed: 0, Failed: 0, Skipped: 10
+[INFO ] 2026-07-12 16:54:29.593 [TestNG-tests-2] TestListener:53 - Test Suite Started: Regression Tests
+[INFO ] 2026-07-12 16:54:29.593 [TestNG-tests-2] TestListener:54 - Number of tests: 2
+[INFO ] 2026-07-12 16:54:29.602 [TestNG-tests-2] BaseClass:25 - Initializing WebDriver for browser: firefox
+[INFO ] 2026-07-12 16:54:31.234 [TestNG-tests-1] TestListener:21 - Test Started: testValidLogin
+[INFO ] 2026-07-12 16:54:31.235 [TestNG-tests-1] TestListener:22 - Test Description: Verify login with valid credentials
+[WARN ] 2026-07-12 16:54:31.235 [TestNG-tests-1] TestListener:47 - Test Skipped: testValidLogin
+[WARN ] 2026-07-12 16:54:31.235 [TestNG-tests-1] TestListener:48 - Skip Reason: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'DESKTOP-P07S4U7', ip: '192.168.1.6'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--disable-notifications]}}]}]
+[INFO ] 2026-07-12 16:54:31.240 [TestNG-tests-1] TestListener:21 - Test Started: testHomePageLoadsSuccessfully
+[INFO ] 2026-07-12 16:54:31.240 [TestNG-tests-1] TestListener:22 - Test Description: Verify home page loads successfully after login
+[WARN ] 2026-07-12 16:54:31.240 [TestNG-tests-1] TestListener:47 - Test Skipped: testHomePageLoadsSuccessfully
+[WARN ] 2026-07-12 16:54:31.241 [TestNG-tests-1] TestListener:48 - Skip Reason: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'DESKTOP-P07S4U7', ip: '192.168.1.6'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--disable-notifications]}}]}]
+[INFO ] 2026-07-12 16:54:31.245 [TestNG-tests-1] TestListener:21 - Test Started: testInvalidLogin
+[INFO ] 2026-07-12 16:54:31.245 [TestNG-tests-1] TestListener:22 - Test Description: Verify login with invalid credentials
+[WARN ] 2026-07-12 16:54:31.246 [TestNG-tests-1] TestListener:47 - Test Skipped: testInvalidLogin
+[WARN ] 2026-07-12 16:54:31.246 [TestNG-tests-1] TestListener:48 - Skip Reason: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'DESKTOP-P07S4U7', ip: '192.168.1.6'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--disable-notifications]}}]}]
+[INFO ] 2026-07-12 16:54:31.252 [TestNG-tests-1] TestListener:21 - Test Started: testInventoryItemsAreDisplayed
+[INFO ] 2026-07-12 16:54:31.253 [TestNG-tests-1] TestListener:22 - Test Description: Verify inventory items are displayed
+[WARN ] 2026-07-12 16:54:31.253 [TestNG-tests-1] TestListener:47 - Test Skipped: testInventoryItemsAreDisplayed
+[WARN ] 2026-07-12 16:54:31.254 [TestNG-tests-1] TestListener:48 - Skip Reason: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'DESKTOP-P07S4U7', ip: '192.168.1.6'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--disable-notifications]}}]}]
+[INFO ] 2026-07-12 16:54:31.257 [TestNG-tests-1] TestListener:21 - Test Started: testAddItemToCart
+[INFO ] 2026-07-12 16:54:31.259 [TestNG-tests-1] TestListener:22 - Test Description: Verify add item to cart from home page
+[WARN ] 2026-07-12 16:54:31.259 [TestNG-tests-1] TestListener:47 - Test Skipped: testAddItemToCart
+[WARN ] 2026-07-12 16:54:31.259 [TestNG-tests-1] TestListener:48 - Skip Reason: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'DESKTOP-P07S4U7', ip: '192.168.1.6'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--disable-notifications]}}]}]
+[INFO ] 2026-07-12 16:54:31.264 [TestNG-tests-1] TestListener:21 - Test Started: testSortItems
+[INFO ] 2026-07-12 16:54:31.264 [TestNG-tests-1] TestListener:22 - Test Description: Verify sorting functionality on home page
+[WARN ] 2026-07-12 16:54:31.264 [TestNG-tests-1] TestListener:47 - Test Skipped: testSortItems
+[WARN ] 2026-07-12 16:54:31.265 [TestNG-tests-1] TestListener:48 - Skip Reason: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'DESKTOP-P07S4U7', ip: '192.168.1.6'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--disable-notifications]}}]}]
+[INFO ] 2026-07-12 16:54:31.270 [TestNG-tests-1] TestListener:21 - Test Started: testNavigateToCart
+[INFO ] 2026-07-12 16:54:31.271 [TestNG-tests-1] TestListener:22 - Test Description: Verify navigation to cart from home page
+[WARN ] 2026-07-12 16:54:31.271 [TestNG-tests-1] TestListener:47 - Test Skipped: testNavigateToCart
+[WARN ] 2026-07-12 16:54:31.271 [TestNG-tests-1] TestListener:48 - Skip Reason: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'DESKTOP-P07S4U7', ip: '192.168.1.6'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--disable-notifications]}}]}]
+[INFO ] 2026-07-12 16:54:31.276 [TestNG-tests-1] TestListener:21 - Test Started: testAddMultipleItemsToCart
+[INFO ] 2026-07-12 16:54:31.276 [TestNG-tests-1] TestListener:22 - Test Description: Verify multiple items can be added to cart
+[WARN ] 2026-07-12 16:54:31.277 [TestNG-tests-1] TestListener:47 - Test Skipped: testAddMultipleItemsToCart
+[WARN ] 2026-07-12 16:54:31.277 [TestNG-tests-1] TestListener:48 - Skip Reason: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'DESKTOP-P07S4U7', ip: '192.168.1.6'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--disable-notifications]}}]}]
+[INFO ] 2026-07-12 16:54:31.283 [TestNG-tests-1] TestListener:21 - Test Started: testHomePageTitle
+[INFO ] 2026-07-12 16:54:31.283 [TestNG-tests-1] TestListener:22 - Test Description: Verify home page title
+[WARN ] 2026-07-12 16:54:31.283 [TestNG-tests-1] TestListener:47 - Test Skipped: testHomePageTitle
+[WARN ] 2026-07-12 16:54:31.284 [TestNG-tests-1] TestListener:48 - Skip Reason: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'DESKTOP-P07S4U7', ip: '192.168.1.6'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--disable-notifications]}}]}]
+[INFO ] 2026-07-12 16:54:31.289 [TestNG-tests-1] TestListener:21 - Test Started: testLogoutFromHomePage
+[INFO ] 2026-07-12 16:54:31.289 [TestNG-tests-1] TestListener:22 - Test Description: Verify logout functionality from home page
+[WARN ] 2026-07-12 16:54:31.289 [TestNG-tests-1] TestListener:47 - Test Skipped: testLogoutFromHomePage
+[WARN ] 2026-07-12 16:54:31.289 [TestNG-tests-1] TestListener:48 - Skip Reason: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'DESKTOP-P07S4U7', ip: '192.168.1.6'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--disable-notifications]}}]}]
+[INFO ] 2026-07-12 16:54:31.292 [TestNG-tests-1] TestListener:59 - Test Suite Finished: Firefox Tests
+[INFO ] 2026-07-12 16:54:31.292 [TestNG-tests-1] TestListener:60 - Passed: 0, Failed: 0, Skipped: 10
+[INFO ] 2026-07-12 16:54:31.315 [TestNG-tests-1] TestListener:53 - Test Suite Started: Edge Browser Test
+[INFO ] 2026-07-12 16:54:31.316 [TestNG-tests-1] TestListener:54 - Number of tests: 1
+[INFO ] 2026-07-12 16:54:31.317 [TestNG-tests-1] BaseClass:25 - Initializing WebDriver for browser: edge
+[INFO ] 2026-07-12 16:54:31.679 [TestNG-tests-2] TestListener:21 - Test Started: testValidLogin
+[INFO ] 2026-07-12 16:54:31.679 [TestNG-tests-2] TestListener:22 - Test Description: Verify login with valid credentials
+[WARN ] 2026-07-12 16:54:31.679 [TestNG-tests-2] TestListener:47 - Test Skipped: testValidLogin
+[WARN ] 2026-07-12 16:54:31.680 [TestNG-tests-2] TestListener:48 - Skip Reason: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'DESKTOP-P07S4U7', ip: '192.168.1.6'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--disable-notifications]}}]}]
+[INFO ] 2026-07-12 16:54:31.685 [TestNG-tests-2] TestListener:21 - Test Started: testInvalidLogin
+[INFO ] 2026-07-12 16:54:31.685 [TestNG-tests-2] TestListener:22 - Test Description: Verify login with invalid credentials
+[WARN ] 2026-07-12 16:54:31.685 [TestNG-tests-2] TestListener:47 - Test Skipped: testInvalidLogin
+[WARN ] 2026-07-12 16:54:31.686 [TestNG-tests-2] TestListener:48 - Skip Reason: Could not start a new session. Response code 500. Message: Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line 
+Host info: host: 'DESKTOP-P07S4U7', ip: '192.168.1.6'
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {args: [--disable-notifications]}}]}]
+[INFO ] 2026-07-12 16:54:31.690 [TestNG-tests-2] TestListener:59 - Test Suite Finished: Regression Tests
+[INFO ] 2026-07-12 16:54:31.691 [TestNG-tests-2] TestListener:60 - Passed: 0, Failed: 0, Skipped: 2
+[INFO ] 2026-07-12 16:54:32.649 [TestNG-tests-1] TestListener:21 - Test Started: testValidLogin
+[INFO ] 2026-07-12 16:54:32.651 [TestNG-tests-1] TestListener:22 - Test Description: Verify login with valid credentials
+[WARN ] 2026-07-12 16:54:32.651 [TestNG-tests-1] TestListener:47 - Test Skipped: testValidLogin
+[WARN ] 2026-07-12 16:54:32.652 [TestNG-tests-1] TestListener:48 - Skip Reason: io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: msedgedriver.azureedge.net
+[INFO ] 2026-07-12 16:54:32.655 [TestNG-tests-1] TestListener:59 - Test Suite Finished: Edge Browser Test
+[INFO ] 2026-07-12 16:54:32.655 [TestNG-tests-1] TestListener:60 - Passed: 0, Failed: 0, Skipped: 1
+[INFO ] 2026-07-12 17:12:00.882 [main] BaseClass:21 - ========== SUITE EXECUTION STARTED ==========
+[INFO ] 2026-07-12 17:12:00.888 [main] BaseClass:23 - ConfigReader initialized successfully
+[INFO ] 2026-07-12 17:12:00.905 [TestNG-tests-2] TestListener:53 - Test Suite Started: Chrome Tests - Home
+[INFO ] 2026-07-12 17:12:00.905 [TestNG-tests-1] TestListener:53 - Test Suite Started: Chrome Tests - Login
+[INFO ] 2026-07-12 17:12:00.905 [TestNG-tests-2] TestListener:54 - Number of tests: 8
+[INFO ] 2026-07-12 17:12:00.906 [TestNG-tests-1] TestListener:54 - Number of tests: 2
+[INFO ] 2026-07-12 17:12:00.916 [TestNG-tests-2] BaseClass:29 - Initializing WebDriver for browser: chrome
+[INFO ] 2026-07-12 17:12:00.916 [TestNG-tests-1] BaseClass:29 - Initializing WebDriver for browser: chrome
+[WARN ] 2026-07-12 17:12:00.917 [TestNG-tests-1] BaseClass:32 - ConfigReader is null, initializing now...
+[WARN ] 2026-07-12 17:12:00.917 [TestNG-tests-2] BaseClass:32 - ConfigReader is null, initializing now...
+[INFO ] 2026-07-12 17:12:00.918 [TestNG-tests-1] BaseClass:37 - URL from config: https://www.saucedemo.com/
+[INFO ] 2026-07-12 17:12:00.918 [TestNG-tests-2] BaseClass:37 - URL from config: https://www.saucedemo.com/
+[INFO ] 2026-07-12 17:12:00.919 [TestNG-tests-2] BrowserFactory:21 - Initializing browser: chrome
+[INFO ] 2026-07-12 17:12:00.919 [TestNG-tests-1] BrowserFactory:21 - Initializing browser: chrome
+[INFO ] 2026-07-12 17:12:00.919 [TestNG-tests-1] BrowserFactory:25 - Setting up ChromeDriver...
+[INFO ] 2026-07-12 17:12:00.919 [TestNG-tests-2] BrowserFactory:25 - Setting up ChromeDriver...
+[INFO ] 2026-07-12 17:12:04.645 [TestNG-tests-2] BrowserFactory:33 - ChromeDriver initialized successfully
+[INFO ] 2026-07-12 17:12:04.645 [TestNG-tests-1] BrowserFactory:33 - ChromeDriver initialized successfully
+[INFO ] 2026-07-12 17:12:06.571 [TestNG-tests-1] BaseClass:43 - Navigated to URL: https://www.saucedemo.com/
+[INFO ] 2026-07-12 17:12:06.619 [TestNG-tests-2] BaseClass:43 - Navigated to URL: https://www.saucedemo.com/
+[INFO ] 2026-07-12 17:12:06.744 [TestNG-tests-2] TestListener:21 - Test Started: testHomePageLoadsSuccessfully
+[INFO ] 2026-07-12 17:12:06.744 [TestNG-tests-1] TestListener:21 - Test Started: testValidLogin
+[INFO ] 2026-07-12 17:12:06.744 [TestNG-tests-1] TestListener:22 - Test Description: Verify login with valid credentials
+[INFO ] 2026-07-12 17:12:06.744 [TestNG-tests-2] TestListener:22 - Test Description: Verify home page loads successfully after login
+[INFO ] 2026-07-12 17:12:06.746 [TestNG-tests-1] BaseClass:22 - Starting testValidLogin
+[INFO ] 2026-07-12 17:12:06.746 [TestNG-tests-2] BaseClass:30 - Starting testHomePageLoadsSuccessfully
+[INFO ] 2026-07-12 17:12:06.788 [TestNG-tests-1] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:12:06.788 [TestNG-tests-2] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:12:06.838 [TestNG-tests-2] BasePage:66 - Verifying login page loaded
+[INFO ] 2026-07-12 17:12:06.838 [TestNG-tests-1] BasePage:66 - Verifying login page loaded
+[ERROR] 2026-07-12 17:12:27.268 [TestNG-tests-1] TestListener:32 - Test Failed: testValidLogin
+[ERROR] 2026-07-12 17:12:27.269 [TestNG-tests-1] TestListener:33 - Failure Reason: Login page not loaded properly expected [true] but found [false]
+[ERROR] 2026-07-12 17:12:27.358 [TestNG-tests-2] TestListener:32 - Test Failed: testHomePageLoadsSuccessfully
+[ERROR] 2026-07-12 17:12:27.358 [TestNG-tests-2] TestListener:33 - Failure Reason: Login page not loaded properly expected [true] but found [false]
+[INFO ] 2026-07-12 17:12:27.625 [TestNG-tests-1] TestListener:21 - Test Started: testInvalidLogin
+[INFO ] 2026-07-12 17:12:27.626 [TestNG-tests-1] TestListener:22 - Test Description: Verify login with invalid credentials
+[INFO ] 2026-07-12 17:12:27.626 [TestNG-tests-2] TestListener:21 - Test Started: testInventoryItemsAreDisplayed
+[INFO ] 2026-07-12 17:12:27.626 [TestNG-tests-2] TestListener:22 - Test Description: Verify inventory items are displayed
+[INFO ] 2026-07-12 17:12:27.626 [TestNG-tests-1] BaseClass:40 - Starting testInvalidLogin
+[INFO ] 2026-07-12 17:12:27.628 [TestNG-tests-1] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:12:27.628 [TestNG-tests-2] BaseClass:55 - Starting testInventoryItemsAreDisplayed
+[INFO ] 2026-07-12 17:12:27.628 [TestNG-tests-2] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:12:27.630 [TestNG-tests-1] BasePage:32 - Entering username: invalid_user
+[INFO ] 2026-07-12 17:12:27.630 [TestNG-tests-2] BasePage:32 - Entering username: standard_user
+[INFO ] 2026-07-12 17:12:27.903 [TestNG-tests-1] BasePage:39 - Entering password: invalid_pass
+[INFO ] 2026-07-12 17:12:27.950 [TestNG-tests-2] BasePage:39 - Entering password: secret_sauce
+[INFO ] 2026-07-12 17:12:28.148 [TestNG-tests-1] BasePage:46 - Clicking on Login button
+[INFO ] 2026-07-12 17:12:28.194 [TestNG-tests-2] BasePage:46 - Clicking on Login button
+[INFO ] 2026-07-12 17:12:28.402 [TestNG-tests-1] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:12:28.403 [TestNG-tests-1] BasePage:60 - Getting error message
+[INFO ] 2026-07-12 17:12:28.454 [TestNG-tests-2] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:12:28.465 [TestNG-tests-2] BasePage:45 - Getting inventory items count
+[ERROR] 2026-07-12 17:12:28.748 [TestNG-tests-2] TestListener:32 - Test Failed: testInventoryItemsAreDisplayed
+[ERROR] 2026-07-12 17:12:28.750 [TestNG-tests-2] TestListener:33 - Failure Reason: No inventory items found expected [true] but found [false]
+[INFO ] 2026-07-12 17:12:28.767 [TestNG-tests-1] BaseClass:47 - Error message displayed: Epic sadface: Username and password do not match any user in this service
+[INFO ] 2026-07-12 17:12:28.767 [TestNG-tests-1] TestListener:27 - Test Passed: testInvalidLogin
+[INFO ] 2026-07-12 17:12:28.786 [TestNG-tests-1] BaseClass:49 - Closing WebDriver
+[INFO ] 2026-07-12 17:12:28.903 [TestNG-tests-2] TestListener:21 - Test Started: testAddItemToCart
+[INFO ] 2026-07-12 17:12:28.903 [TestNG-tests-2] TestListener:22 - Test Description: Verify add item to cart from home page
+[INFO ] 2026-07-12 17:12:28.905 [TestNG-tests-2] BaseClass:74 - Starting testAddItemToCart
+[INFO ] 2026-07-12 17:12:28.909 [TestNG-tests-2] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:12:28.911 [TestNG-tests-2] BasePage:32 - Entering username: standard_user
+[ERROR] 2026-07-12 17:12:29.085 [TestNG-tests-2] TestListener:32 - Test Failed: testAddItemToCart
+[ERROR] 2026-07-12 17:12:29.085 [TestNG-tests-2] TestListener:33 - Failure Reason: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c7c501a6b29b5b6ad70590baba33f64b, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.102, chrome: {chromedriverVersion: 150.0.7871.115 (25f5b661e5b..., userDataDir: C:\Users\WAQARA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61470}, goog:processID: 17864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61470/devtoo..., se:cdpVersion: 150.0.7871.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7c501a6b29b5b6ad70590baba33f64b
+[ERROR] 2026-07-12 17:12:29.087 [TestNG-tests-2] TestListener:32 - Test Failed: testAddItemToCart
+[ERROR] 2026-07-12 17:12:29.087 [TestNG-tests-2] TestListener:33 - Failure Reason: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c7c501a6b29b5b6ad70590baba33f64b, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.102, chrome: {chromedriverVersion: 150.0.7871.115 (25f5b661e5b..., userDataDir: C:\Users\WAQARA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61470}, goog:processID: 17864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61470/devtoo..., se:cdpVersion: 150.0.7871.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c7c501a6b29b5b6ad70590baba33f64b
+[INFO ] 2026-07-12 17:12:29.097 [TestNG-tests-2] BaseClass:49 - Closing WebDriver
+[INFO ] 2026-07-12 17:12:29.111 [TestNG-tests-2] TestListener:59 - Test Suite Finished: Chrome Tests - Home
+[INFO ] 2026-07-12 17:12:29.111 [TestNG-tests-1] TestListener:59 - Test Suite Finished: Chrome Tests - Login
+[INFO ] 2026-07-12 17:12:29.111 [TestNG-tests-1] TestListener:60 - Passed: 1, Failed: 1, Skipped: 0
+[INFO ] 2026-07-12 17:12:29.111 [TestNG-tests-2] TestListener:60 - Passed: 0, Failed: 2, Skipped: 0
+[INFO ] 2026-07-12 17:12:29.161 [TestNG-tests-2] TestListener:53 - Test Suite Started: Firefox Tests
+[INFO ] 2026-07-12 17:12:29.161 [TestNG-tests-2] TestListener:54 - Number of tests: 10
+[INFO ] 2026-07-12 17:12:29.161 [TestNG-tests-1] TestListener:53 - Test Suite Started: Smoke Tests
+[INFO ] 2026-07-12 17:12:29.161 [TestNG-tests-1] TestListener:54 - Number of tests: 10
+[INFO ] 2026-07-12 17:12:29.161 [TestNG-tests-2] BaseClass:29 - Initializing WebDriver for browser: firefox
+[WARN ] 2026-07-12 17:12:29.161 [TestNG-tests-2] BaseClass:32 - ConfigReader is null, initializing now...
+[INFO ] 2026-07-12 17:12:29.161 [TestNG-tests-1] BaseClass:29 - Initializing WebDriver for browser: chrome
+[WARN ] 2026-07-12 17:12:29.161 [TestNG-tests-1] BaseClass:32 - ConfigReader is null, initializing now...
+[INFO ] 2026-07-12 17:12:29.161 [TestNG-tests-2] BaseClass:37 - URL from config: https://www.saucedemo.com/
+[INFO ] 2026-07-12 17:12:29.164 [TestNG-tests-2] BrowserFactory:21 - Initializing browser: firefox
+[INFO ] 2026-07-12 17:12:29.164 [TestNG-tests-1] BaseClass:37 - URL from config: https://www.saucedemo.com/
+[INFO ] 2026-07-12 17:12:29.164 [TestNG-tests-2] BrowserFactory:38 - Setting up FirefoxDriver...
+[INFO ] 2026-07-12 17:12:29.164 [TestNG-tests-1] BrowserFactory:21 - Initializing browser: chrome
+[INFO ] 2026-07-12 17:12:29.164 [TestNG-tests-1] BrowserFactory:25 - Setting up ChromeDriver...
+[INFO ] 2026-07-12 17:12:29.865 [TestNG-tests-1] BrowserFactory:33 - ChromeDriver initialized successfully
+[ERROR] 2026-07-12 17:12:30.508 [TestNG-tests-2] BrowserFactory:45 - Firefox not found, falling back to Chrome
+[INFO ] 2026-07-12 17:12:30.646 [TestNG-tests-1] BaseClass:43 - Navigated to URL: https://www.saucedemo.com/
+[INFO ] 2026-07-12 17:12:30.654 [TestNG-tests-1] TestListener:21 - Test Started: testValidLogin
+[INFO ] 2026-07-12 17:12:30.654 [TestNG-tests-1] TestListener:22 - Test Description: Verify login with valid credentials
+[INFO ] 2026-07-12 17:12:30.658 [TestNG-tests-1] BaseClass:22 - Starting testValidLogin
+[INFO ] 2026-07-12 17:12:30.659 [TestNG-tests-1] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:12:30.660 [TestNG-tests-1] BasePage:66 - Verifying login page loaded
+[INFO ] 2026-07-12 17:12:31.283 [TestNG-tests-2] BrowserFactory:50 - Falling back to ChromeDriver
+[INFO ] 2026-07-12 17:12:32.021 [TestNG-tests-2] BaseClass:43 - Navigated to URL: https://www.saucedemo.com/
+[INFO ] 2026-07-12 17:12:32.023 [TestNG-tests-2] TestListener:21 - Test Started: testValidLogin
+[INFO ] 2026-07-12 17:12:32.026 [TestNG-tests-2] TestListener:22 - Test Description: Verify login with valid credentials
+[INFO ] 2026-07-12 17:12:32.028 [TestNG-tests-2] BaseClass:22 - Starting testValidLogin
+[INFO ] 2026-07-12 17:12:32.029 [TestNG-tests-2] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:12:32.030 [TestNG-tests-2] BasePage:66 - Verifying login page loaded
+[ERROR] 2026-07-12 17:12:50.946 [TestNG-tests-1] TestListener:32 - Test Failed: testValidLogin
+[ERROR] 2026-07-12 17:12:50.946 [TestNG-tests-1] TestListener:33 - Failure Reason: Login page not loaded properly expected [true] but found [false]
+[INFO ] 2026-07-12 17:12:51.058 [TestNG-tests-1] TestListener:21 - Test Started: testHomePageLoadsSuccessfully
+[INFO ] 2026-07-12 17:12:51.058 [TestNG-tests-1] TestListener:22 - Test Description: Verify home page loads successfully after login
+[INFO ] 2026-07-12 17:12:51.059 [TestNG-tests-1] BaseClass:30 - Starting testHomePageLoadsSuccessfully
+[INFO ] 2026-07-12 17:12:51.060 [TestNG-tests-1] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:12:51.060 [TestNG-tests-1] BasePage:66 - Verifying login page loaded
+[ERROR] 2026-07-12 17:12:52.204 [TestNG-tests-2] TestListener:32 - Test Failed: testValidLogin
+[ERROR] 2026-07-12 17:12:52.205 [TestNG-tests-2] TestListener:33 - Failure Reason: Login page not loaded properly expected [true] but found [false]
+[INFO ] 2026-07-12 17:12:52.309 [TestNG-tests-2] TestListener:21 - Test Started: testHomePageLoadsSuccessfully
+[INFO ] 2026-07-12 17:12:52.309 [TestNG-tests-2] TestListener:22 - Test Description: Verify home page loads successfully after login
+[INFO ] 2026-07-12 17:12:52.309 [TestNG-tests-2] BaseClass:30 - Starting testHomePageLoadsSuccessfully
+[INFO ] 2026-07-12 17:12:52.314 [TestNG-tests-2] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:12:52.314 [TestNG-tests-2] BasePage:66 - Verifying login page loaded
+[ERROR] 2026-07-12 17:13:11.595 [TestNG-tests-1] TestListener:32 - Test Failed: testHomePageLoadsSuccessfully
+[ERROR] 2026-07-12 17:13:11.595 [TestNG-tests-1] TestListener:33 - Failure Reason: Login page not loaded properly expected [true] but found [false]
+[INFO ] 2026-07-12 17:13:11.709 [TestNG-tests-1] TestListener:21 - Test Started: testInvalidLogin
+[INFO ] 2026-07-12 17:13:11.709 [TestNG-tests-1] TestListener:22 - Test Description: Verify login with invalid credentials
+[INFO ] 2026-07-12 17:13:11.710 [TestNG-tests-1] BaseClass:40 - Starting testInvalidLogin
+[INFO ] 2026-07-12 17:13:11.710 [TestNG-tests-1] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:13:11.710 [TestNG-tests-1] BasePage:32 - Entering username: invalid_user
+[INFO ] 2026-07-12 17:13:11.852 [TestNG-tests-1] BasePage:39 - Entering password: invalid_pass
+[INFO ] 2026-07-12 17:13:11.948 [TestNG-tests-1] BasePage:46 - Clicking on Login button
+[INFO ] 2026-07-12 17:13:12.052 [TestNG-tests-1] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:13:12.052 [TestNG-tests-1] BasePage:60 - Getting error message
+[INFO ] 2026-07-12 17:13:12.095 [TestNG-tests-1] BaseClass:47 - Error message displayed: Epic sadface: Username and password do not match any user in this service
+[INFO ] 2026-07-12 17:13:12.095 [TestNG-tests-1] TestListener:27 - Test Passed: testInvalidLogin
+[INFO ] 2026-07-12 17:13:12.099 [TestNG-tests-1] TestListener:21 - Test Started: testInventoryItemsAreDisplayed
+[INFO ] 2026-07-12 17:13:12.099 [TestNG-tests-1] TestListener:22 - Test Description: Verify inventory items are displayed
+[INFO ] 2026-07-12 17:13:12.100 [TestNG-tests-1] BaseClass:55 - Starting testInventoryItemsAreDisplayed
+[INFO ] 2026-07-12 17:13:12.101 [TestNG-tests-1] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:13:12.101 [TestNG-tests-1] BasePage:32 - Entering username: standard_user
+[INFO ] 2026-07-12 17:13:12.205 [TestNG-tests-1] BasePage:39 - Entering password: secret_sauce
+[INFO ] 2026-07-12 17:13:12.299 [TestNG-tests-1] BasePage:46 - Clicking on Login button
+[INFO ] 2026-07-12 17:13:12.423 [TestNG-tests-1] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:13:12.423 [TestNG-tests-1] BasePage:45 - Getting inventory items count
+[INFO ] 2026-07-12 17:13:12.438 [TestNG-tests-1] BaseClass:62 - Found 6 inventory items
+[INFO ] 2026-07-12 17:13:12.440 [TestNG-tests-1] TestListener:27 - Test Passed: testInventoryItemsAreDisplayed
+[INFO ] 2026-07-12 17:13:12.446 [TestNG-tests-1] TestListener:21 - Test Started: testAddItemToCart
+[INFO ] 2026-07-12 17:13:12.446 [TestNG-tests-1] TestListener:22 - Test Description: Verify add item to cart from home page
+[INFO ] 2026-07-12 17:13:12.447 [TestNG-tests-1] BaseClass:74 - Starting testAddItemToCart
+[INFO ] 2026-07-12 17:13:12.447 [TestNG-tests-1] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:13:12.448 [TestNG-tests-1] BasePage:32 - Entering username: standard_user
+[ERROR] 2026-07-12 17:13:33.007 [TestNG-tests-1] TestListener:32 - Test Failed: testAddItemToCart
+[ERROR] 2026-07-12 17:13:33.007 [TestNG-tests-1] TestListener:33 - Failure Reason: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: user-name' (tried for 20 second(s) with 500 milliseconds interval)
+[INFO ] 2026-07-12 17:13:33.144 [TestNG-tests-1] TestListener:21 - Test Started: testSortItems
+[INFO ] 2026-07-12 17:13:33.144 [TestNG-tests-1] TestListener:22 - Test Description: Verify sorting functionality on home page
+[INFO ] 2026-07-12 17:13:33.145 [TestNG-tests-1] BaseClass:99 - Starting testSortItems
+[INFO ] 2026-07-12 17:13:33.145 [TestNG-tests-1] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:13:33.145 [TestNG-tests-1] BasePage:32 - Entering username: standard_user
+[ERROR] 2026-07-12 17:13:33.332 [TestNG-tests-2] TestListener:32 - Test Failed: testHomePageLoadsSuccessfully
+[ERROR] 2026-07-12 17:13:33.332 [TestNG-tests-2] TestListener:33 - Failure Reason: Login page not loaded properly expected [true] but found [false]
+[INFO ] 2026-07-12 17:13:33.482 [TestNG-tests-2] TestListener:21 - Test Started: testInvalidLogin
+[INFO ] 2026-07-12 17:13:33.482 [TestNG-tests-2] TestListener:22 - Test Description: Verify login with invalid credentials
+[INFO ] 2026-07-12 17:13:33.483 [TestNG-tests-2] BaseClass:40 - Starting testInvalidLogin
+[INFO ] 2026-07-12 17:13:33.483 [TestNG-tests-2] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:13:33.484 [TestNG-tests-2] BasePage:32 - Entering username: invalid_user
+[ERROR] 2026-07-12 17:13:53.670 [TestNG-tests-1] TestListener:32 - Test Failed: testSortItems
+[ERROR] 2026-07-12 17:13:53.671 [TestNG-tests-1] TestListener:33 - Failure Reason: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: user-name' (tried for 20 second(s) with 500 milliseconds interval)
+[INFO ] 2026-07-12 17:13:53.847 [TestNG-tests-1] TestListener:21 - Test Started: testNavigateToCart
+[INFO ] 2026-07-12 17:13:53.847 [TestNG-tests-1] TestListener:22 - Test Description: Verify navigation to cart from home page
+[INFO ] 2026-07-12 17:13:53.848 [TestNG-tests-1] BaseClass:122 - Starting testNavigateToCart
+[INFO ] 2026-07-12 17:13:53.848 [TestNG-tests-1] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:13:53.849 [TestNG-tests-1] BasePage:32 - Entering username: standard_user
+[ERROR] 2026-07-12 17:13:53.977 [TestNG-tests-2] TestListener:32 - Test Failed: testInvalidLogin
+[ERROR] 2026-07-12 17:13:53.978 [TestNG-tests-2] TestListener:33 - Failure Reason: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: user-name' (tried for 20 second(s) with 500 milliseconds interval)
+[INFO ] 2026-07-12 17:13:54.126 [TestNG-tests-2] TestListener:21 - Test Started: testInventoryItemsAreDisplayed
+[INFO ] 2026-07-12 17:13:54.126 [TestNG-tests-2] TestListener:22 - Test Description: Verify inventory items are displayed
+[INFO ] 2026-07-12 17:13:54.127 [TestNG-tests-2] BaseClass:55 - Starting testInventoryItemsAreDisplayed
+[INFO ] 2026-07-12 17:13:54.127 [TestNG-tests-2] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:13:54.128 [TestNG-tests-2] BasePage:32 - Entering username: standard_user
+[ERROR] 2026-07-12 17:14:14.435 [TestNG-tests-1] TestListener:32 - Test Failed: testNavigateToCart
+[ERROR] 2026-07-12 17:14:14.435 [TestNG-tests-1] TestListener:33 - Failure Reason: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: user-name' (tried for 20 second(s) with 500 milliseconds interval)
+[INFO ] 2026-07-12 17:14:14.577 [TestNG-tests-1] TestListener:21 - Test Started: testAddMultipleItemsToCart
+[INFO ] 2026-07-12 17:14:14.577 [TestNG-tests-1] TestListener:22 - Test Description: Verify multiple items can be added to cart
+[INFO ] 2026-07-12 17:14:14.578 [TestNG-tests-1] BaseClass:143 - Starting testAddMultipleItemsToCart
+[INFO ] 2026-07-12 17:14:14.578 [TestNG-tests-1] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:14:14.578 [TestNG-tests-1] BasePage:32 - Entering username: standard_user
+[ERROR] 2026-07-12 17:14:14.687 [TestNG-tests-2] TestListener:32 - Test Failed: testInventoryItemsAreDisplayed
+[ERROR] 2026-07-12 17:14:14.688 [TestNG-tests-2] TestListener:33 - Failure Reason: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: user-name' (tried for 20 second(s) with 500 milliseconds interval)
+[INFO ] 2026-07-12 17:14:14.839 [TestNG-tests-2] TestListener:21 - Test Started: testAddItemToCart
+[INFO ] 2026-07-12 17:14:14.839 [TestNG-tests-2] TestListener:22 - Test Description: Verify add item to cart from home page
+[INFO ] 2026-07-12 17:14:14.840 [TestNG-tests-2] BaseClass:74 - Starting testAddItemToCart
+[INFO ] 2026-07-12 17:14:14.840 [TestNG-tests-2] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:14:14.841 [TestNG-tests-2] BasePage:32 - Entering username: standard_user
+[ERROR] 2026-07-12 17:14:34.827 [TestNG-tests-1] TestListener:32 - Test Failed: testAddMultipleItemsToCart
+[ERROR] 2026-07-12 17:14:34.827 [TestNG-tests-1] TestListener:33 - Failure Reason: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: user-name' (tried for 20 second(s) with 500 milliseconds interval)
+[INFO ] 2026-07-12 17:14:34.981 [TestNG-tests-1] TestListener:21 - Test Started: testHomePageTitle
+[INFO ] 2026-07-12 17:14:34.981 [TestNG-tests-1] TestListener:22 - Test Description: Verify home page title
+[INFO ] 2026-07-12 17:14:34.982 [TestNG-tests-1] BaseClass:170 - Starting testHomePageTitle
+[INFO ] 2026-07-12 17:14:34.983 [TestNG-tests-1] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:14:34.983 [TestNG-tests-1] BasePage:32 - Entering username: standard_user
+[ERROR] 2026-07-12 17:14:35.363 [TestNG-tests-2] TestListener:32 - Test Failed: testAddItemToCart
+[ERROR] 2026-07-12 17:14:35.363 [TestNG-tests-2] TestListener:33 - Failure Reason: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: user-name' (tried for 20 second(s) with 500 milliseconds interval)
+[INFO ] 2026-07-12 17:14:35.491 [TestNG-tests-2] TestListener:21 - Test Started: testSortItems
+[INFO ] 2026-07-12 17:14:35.491 [TestNG-tests-2] TestListener:22 - Test Description: Verify sorting functionality on home page
+[INFO ] 2026-07-12 17:14:35.492 [TestNG-tests-2] BaseClass:99 - Starting testSortItems
+[INFO ] 2026-07-12 17:14:35.492 [TestNG-tests-2] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:14:35.492 [TestNG-tests-2] BasePage:32 - Entering username: standard_user
+[ERROR] 2026-07-12 17:14:55.470 [TestNG-tests-1] TestListener:32 - Test Failed: testHomePageTitle
+[ERROR] 2026-07-12 17:14:55.470 [TestNG-tests-1] TestListener:33 - Failure Reason: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: user-name' (tried for 20 second(s) with 500 milliseconds interval)
+[INFO ] 2026-07-12 17:14:55.601 [TestNG-tests-1] TestListener:21 - Test Started: testLogoutFromHomePage
+[INFO ] 2026-07-12 17:14:55.601 [TestNG-tests-1] TestListener:22 - Test Description: Verify logout functionality from home page
+[INFO ] 2026-07-12 17:14:55.602 [TestNG-tests-1] BaseClass:189 - Starting testLogoutFromHomePage
+[INFO ] 2026-07-12 17:14:55.603 [TestNG-tests-1] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:14:55.603 [TestNG-tests-1] BasePage:32 - Entering username: standard_user
+[ERROR] 2026-07-12 17:14:56.012 [TestNG-tests-2] TestListener:32 - Test Failed: testSortItems
+[ERROR] 2026-07-12 17:14:56.012 [TestNG-tests-2] TestListener:33 - Failure Reason: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: user-name' (tried for 20 second(s) with 500 milliseconds interval)
+[INFO ] 2026-07-12 17:14:56.148 [TestNG-tests-2] TestListener:21 - Test Started: testNavigateToCart
+[INFO ] 2026-07-12 17:14:56.148 [TestNG-tests-2] TestListener:22 - Test Description: Verify navigation to cart from home page
+[INFO ] 2026-07-12 17:14:56.149 [TestNG-tests-2] BaseClass:122 - Starting testNavigateToCart
+[INFO ] 2026-07-12 17:14:56.150 [TestNG-tests-2] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:14:56.151 [TestNG-tests-2] BasePage:32 - Entering username: standard_user
+[ERROR] 2026-07-12 17:15:16.329 [TestNG-tests-1] TestListener:32 - Test Failed: testLogoutFromHomePage
+[ERROR] 2026-07-12 17:15:16.329 [TestNG-tests-1] TestListener:33 - Failure Reason: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: user-name' (tried for 20 second(s) with 500 milliseconds interval)
+[INFO ] 2026-07-12 17:15:16.467 [TestNG-tests-1] BaseClass:49 - Closing WebDriver
+[ERROR] 2026-07-12 17:15:16.613 [TestNG-tests-2] TestListener:32 - Test Failed: testNavigateToCart
+[ERROR] 2026-07-12 17:15:16.613 [TestNG-tests-2] TestListener:33 - Failure Reason: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.id: user-name' (tried for 20 second(s) with 500 milliseconds interval)
+[ERROR] 2026-07-12 17:15:16.777 [TestNG-tests-2] TestListener:32 - Test Failed: testNavigateToCart
+[ERROR] 2026-07-12 17:15:16.777 [TestNG-tests-2] TestListener:33 - Failure Reason: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3bc5e6789ed9eb777ffa8624ebbac8b1, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.102, chrome: {chromedriverVersion: 150.0.7871.115 (25f5b661e5b..., userDataDir: C:\Users\WAQARA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50746}, goog:processID: 15432, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50746/devtoo..., se:cdpVersion: 150.0.7871.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3bc5e6789ed9eb777ffa8624ebbac8b1
+[INFO ] 2026-07-12 17:15:16.779 [TestNG-tests-2] BaseClass:49 - Closing WebDriver
+[INFO ] 2026-07-12 17:15:16.816 [TestNG-tests-1] TestListener:59 - Test Suite Finished: Smoke Tests
+[INFO ] 2026-07-12 17:15:16.818 [TestNG-tests-1] TestListener:60 - Passed: 2, Failed: 8, Skipped: 0
+[INFO ] 2026-07-12 17:15:16.831 [TestNG-tests-2] TestListener:59 - Test Suite Finished: Firefox Tests
+[INFO ] 2026-07-12 17:15:16.831 [TestNG-tests-2] TestListener:60 - Passed: 0, Failed: 6, Skipped: 0
+[INFO ] 2026-07-12 17:15:16.879 [TestNG-tests-1] TestListener:53 - Test Suite Started: Regression Tests
+[INFO ] 2026-07-12 17:15:16.879 [TestNG-tests-1] TestListener:54 - Number of tests: 2
+[INFO ] 2026-07-12 17:15:16.879 [TestNG-tests-2] TestListener:53 - Test Suite Started: Edge Browser Test
+[INFO ] 2026-07-12 17:15:16.879 [TestNG-tests-2] TestListener:54 - Number of tests: 1
+[INFO ] 2026-07-12 17:15:16.879 [TestNG-tests-1] BaseClass:29 - Initializing WebDriver for browser: firefox
+[INFO ] 2026-07-12 17:15:16.879 [TestNG-tests-2] BaseClass:29 - Initializing WebDriver for browser: edge
+[WARN ] 2026-07-12 17:15:16.879 [TestNG-tests-1] BaseClass:32 - ConfigReader is null, initializing now...
+[INFO ] 2026-07-12 17:15:16.879 [TestNG-tests-2] BaseClass:37 - URL from config: https://www.saucedemo.com/
+[INFO ] 2026-07-12 17:15:16.881 [TestNG-tests-2] BrowserFactory:21 - Initializing browser: edge
+[INFO ] 2026-07-12 17:15:16.881 [TestNG-tests-1] BaseClass:37 - URL from config: https://www.saucedemo.com/
+[INFO ] 2026-07-12 17:15:16.881 [TestNG-tests-2] BrowserFactory:56 - Setting up EdgeDriver...
+[INFO ] 2026-07-12 17:15:16.881 [TestNG-tests-1] BrowserFactory:21 - Initializing browser: firefox
+[INFO ] 2026-07-12 17:15:16.881 [TestNG-tests-1] BrowserFactory:38 - Setting up FirefoxDriver...
+[ERROR] 2026-07-12 17:15:17.518 [TestNG-tests-1] BrowserFactory:45 - Firefox not found, falling back to Chrome
+[ERROR] 2026-07-12 17:15:17.558 [TestNG-tests-2] BrowserFactory:62 - Edge not found, falling back to Chrome
+[INFO ] 2026-07-12 17:15:19.083 [TestNG-tests-1] BrowserFactory:50 - Falling back to ChromeDriver
+[INFO ] 2026-07-12 17:15:19.098 [TestNG-tests-2] BrowserFactory:67 - Falling back to ChromeDriver
+[INFO ] 2026-07-12 17:15:19.931 [TestNG-tests-2] BaseClass:43 - Navigated to URL: https://www.saucedemo.com/
+[INFO ] 2026-07-12 17:15:19.936 [TestNG-tests-2] TestListener:21 - Test Started: testValidLogin
+[INFO ] 2026-07-12 17:15:19.940 [TestNG-tests-2] TestListener:22 - Test Description: Verify login with valid credentials
+[INFO ] 2026-07-12 17:15:19.941 [TestNG-tests-2] BaseClass:22 - Starting testValidLogin
+[INFO ] 2026-07-12 17:15:19.942 [TestNG-tests-2] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:15:19.942 [TestNG-tests-2] BasePage:66 - Verifying login page loaded
+[INFO ] 2026-07-12 17:15:19.991 [TestNG-tests-1] BaseClass:43 - Navigated to URL: https://www.saucedemo.com/
+[INFO ] 2026-07-12 17:15:19.995 [TestNG-tests-1] TestListener:21 - Test Started: testValidLogin
+[INFO ] 2026-07-12 17:15:19.995 [TestNG-tests-1] TestListener:22 - Test Description: Verify login with valid credentials
+[INFO ] 2026-07-12 17:15:19.997 [TestNG-tests-1] BaseClass:22 - Starting testValidLogin
+[INFO ] 2026-07-12 17:15:19.997 [TestNG-tests-1] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:15:19.999 [TestNG-tests-1] BasePage:66 - Verifying login page loaded
+[ERROR] 2026-07-12 17:15:40.365 [TestNG-tests-2] TestListener:32 - Test Failed: testValidLogin
+[ERROR] 2026-07-12 17:15:40.365 [TestNG-tests-2] TestListener:33 - Failure Reason: Login page not loaded properly expected [true] but found [false]
+[INFO ] 2026-07-12 17:15:40.463 [TestNG-tests-2] BaseClass:49 - Closing WebDriver
+[ERROR] 2026-07-12 17:15:40.663 [TestNG-tests-1] TestListener:32 - Test Failed: testValidLogin
+[ERROR] 2026-07-12 17:15:40.665 [TestNG-tests-1] TestListener:33 - Failure Reason: Login page not loaded properly expected [true] but found [false]
+[ERROR] 2026-07-12 17:15:40.666 [TestNG-tests-1] TestListener:32 - Test Failed: testValidLogin
+[ERROR] 2026-07-12 17:15:40.666 [TestNG-tests-1] TestListener:33 - Failure Reason: Error communicating with the remote browser. It may have died.
+Build info: version: '4.15.0', revision: '1d14b5521b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [69d8d2e32a1f61cee35e6216c5af320b, screenshot []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.102, chrome: {chromedriverVersion: 150.0.7871.115 (25f5b661e5b..., userDataDir: C:\Users\WAQARA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61911}, goog:processID: 11964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61911/devtoo..., se:cdpVersion: 150.0.7871.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 69d8d2e32a1f61cee35e6216c5af320b
+[INFO ] 2026-07-12 17:15:40.668 [TestNG-tests-1] BaseClass:49 - Closing WebDriver
+[INFO ] 2026-07-12 17:15:40.676 [TestNG-tests-2] TestListener:59 - Test Suite Finished: Edge Browser Test
+[INFO ] 2026-07-12 17:15:40.677 [TestNG-tests-2] TestListener:60 - Passed: 0, Failed: 1, Skipped: 0
+[INFO ] 2026-07-12 17:15:40.681 [TestNG-tests-1] TestListener:59 - Test Suite Finished: Regression Tests
+[INFO ] 2026-07-12 17:15:40.681 [TestNG-tests-1] TestListener:60 - Passed: 0, Failed: 0, Skipped: 0
+[INFO ] 2026-07-12 17:15:40.691 [main] BaseClass:57 - ========== SUITE EXECUTION COMPLETED ==========
+[INFO ] 2026-07-12 17:53:50.022 [main] BaseClass:21 - ========== SUITE EXECUTION STARTED ==========
+[INFO ] 2026-07-12 17:53:50.028 [main] BaseClass:23 - ConfigReader initialized successfully
+[INFO ] 2026-07-12 17:53:50.080 [main] BaseClass:29 - Initializing WebDriver for browser: chrome
+[INFO ] 2026-07-12 17:53:50.080 [main] BaseClass:37 - URL from config: https://www.saucedemo.com/
+[INFO ] 2026-07-12 17:53:50.081 [main] BrowserFactory:21 - Initializing browser: chrome
+[INFO ] 2026-07-12 17:53:50.082 [main] BrowserFactory:25 - Setting up ChromeDriver...
+[INFO ] 2026-07-12 17:53:52.534 [main] BrowserFactory:33 - ChromeDriver initialized successfully
+[INFO ] 2026-07-12 17:53:54.189 [main] BaseClass:43 - Navigated to URL: https://www.saucedemo.com/
+[INFO ] 2026-07-12 17:53:54.394 [main] BaseClass:40 - Starting testInvalidLogin
+[INFO ] 2026-07-12 17:53:54.483 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:53:54.532 [main] BasePage:32 - Entering username: invalid_user
+[INFO ] 2026-07-12 17:53:54.746 [main] BasePage:39 - Entering password: invalid_pass
+[INFO ] 2026-07-12 17:53:54.884 [main] BasePage:46 - Clicking on Login button
+[INFO ] 2026-07-12 17:53:55.047 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:53:55.048 [main] BasePage:60 - Getting error message
+[INFO ] 2026-07-12 17:53:55.112 [main] BaseClass:47 - Error message displayed: Epic sadface: Username and password do not match any user in this service
+[INFO ] 2026-07-12 17:53:55.315 [main] BaseClass:49 - Closing WebDriver
+[INFO ] 2026-07-12 17:53:55.566 [main] BaseClass:57 - ========== SUITE EXECUTION COMPLETED ==========
+[INFO ] 2026-07-12 17:56:16.632 [main] BaseClass:21 - ========== SUITE EXECUTION STARTED ==========
+[INFO ] 2026-07-12 17:56:16.642 [main] BaseClass:23 - ConfigReader initialized successfully
+[INFO ] 2026-07-12 17:56:16.683 [main] BaseClass:29 - Initializing WebDriver for browser: chrome
+[INFO ] 2026-07-12 17:56:16.683 [main] BaseClass:37 - URL from config: https://www.saucedemo.com/
+[INFO ] 2026-07-12 17:56:16.684 [main] BrowserFactory:21 - Initializing browser: chrome
+[INFO ] 2026-07-12 17:56:16.685 [main] BrowserFactory:25 - Setting up ChromeDriver...
+[INFO ] 2026-07-12 17:56:19.016 [main] BrowserFactory:33 - ChromeDriver initialized successfully
+[INFO ] 2026-07-12 17:56:19.761 [main] BaseClass:43 - Navigated to URL: https://www.saucedemo.com/
+[INFO ] 2026-07-12 17:56:20.015 [main] BaseClass:30 - Starting testHomePageLoadsSuccessfully
+[INFO ] 2026-07-12 17:56:20.089 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:56:20.139 [main] BasePage:66 - Verifying login page loaded
+[INFO ] 2026-07-12 17:56:40.345 [main] BaseClass:55 - Starting testInventoryItemsAreDisplayed
+[INFO ] 2026-07-12 17:56:40.347 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:56:40.353 [main] BasePage:32 - Entering username: standard_user
+[INFO ] 2026-07-12 17:56:40.529 [main] BasePage:39 - Entering password: secret_sauce
+[INFO ] 2026-07-12 17:56:40.869 [main] BasePage:46 - Clicking on Login button
+[INFO ] 2026-07-12 17:56:41.138 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:56:41.140 [main] BasePage:45 - Getting inventory items count
+[INFO ] 2026-07-12 17:56:41.182 [main] BaseClass:62 - Found 6 inventory items
+[INFO ] 2026-07-12 17:56:41.196 [main] BaseClass:74 - Starting testAddItemToCart
+[INFO ] 2026-07-12 17:56:41.198 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:56:41.198 [main] BasePage:32 - Entering username: standard_user
+[INFO ] 2026-07-12 17:57:01.353 [main] BaseClass:99 - Starting testSortItems
+[INFO ] 2026-07-12 17:57:01.355 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:57:01.357 [main] BasePage:32 - Entering username: standard_user
+[INFO ] 2026-07-12 17:57:21.815 [main] BaseClass:122 - Starting testNavigateToCart
+[INFO ] 2026-07-12 17:57:21.817 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:57:21.818 [main] BasePage:32 - Entering username: standard_user
+[INFO ] 2026-07-12 17:57:42.320 [main] BaseClass:143 - Starting testAddMultipleItemsToCart
+[INFO ] 2026-07-12 17:57:42.320 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:57:42.323 [main] BasePage:32 - Entering username: standard_user
+[INFO ] 2026-07-12 17:58:02.370 [main] BaseClass:170 - Starting testHomePageTitle
+[INFO ] 2026-07-12 17:58:02.370 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:58:02.372 [main] BasePage:32 - Entering username: standard_user
+[INFO ] 2026-07-12 17:58:22.496 [main] BaseClass:189 - Starting testLogoutFromHomePage
+[INFO ] 2026-07-12 17:58:22.496 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 17:58:22.496 [main] BasePage:32 - Entering username: standard_user
+[INFO ] 2026-07-12 17:58:42.905 [main] BaseClass:49 - Closing WebDriver
+[INFO ] 2026-07-12 17:58:43.213 [main] BaseClass:57 - ========== SUITE EXECUTION COMPLETED ==========
+[INFO ] 2026-07-12 18:02:27.778 [main] BaseClass:21 - ========== SUITE EXECUTION STARTED ==========
+[INFO ] 2026-07-12 18:02:27.784 [main] BaseClass:23 - ConfigReader initialized successfully
+[INFO ] 2026-07-12 18:02:27.838 [main] BaseClass:29 - Initializing WebDriver for browser: chrome
+[INFO ] 2026-07-12 18:02:27.838 [main] BaseClass:37 - URL from config: https://www.saucedemo.com/
+[INFO ] 2026-07-12 18:02:27.841 [main] BrowserFactory:21 - Initializing browser: chrome
+[INFO ] 2026-07-12 18:02:27.841 [main] BrowserFactory:25 - Setting up ChromeDriver...
+[INFO ] 2026-07-12 18:02:30.212 [main] BrowserFactory:33 - ChromeDriver initialized successfully
+[INFO ] 2026-07-12 18:02:31.047 [main] BaseClass:43 - Navigated to URL: https://www.saucedemo.com/
+[INFO ] 2026-07-12 18:02:31.343 [main] BaseClass:40 - Starting testInvalidLogin
+[INFO ] 2026-07-12 18:02:31.437 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 18:02:31.491 [main] BasePage:32 - Entering username: invalid_user
+[INFO ] 2026-07-12 18:02:31.761 [main] BasePage:39 - Entering password: invalid_pass
+[INFO ] 2026-07-12 18:02:31.888 [main] BasePage:46 - Clicking on Login button
+[INFO ] 2026-07-12 18:02:32.073 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 18:02:32.074 [main] BasePage:60 - Getting error message
+[INFO ] 2026-07-12 18:02:32.139 [main] BaseClass:47 - Error message displayed: Epic sadface: Username and password do not match any user in this service
+[INFO ] 2026-07-12 18:02:32.373 [main] BaseClass:49 - Closing WebDriver
+[INFO ] 2026-07-12 18:02:32.663 [main] BaseClass:57 - ========== SUITE EXECUTION COMPLETED ==========
+[INFO ] 2026-07-12 18:02:47.785 [main] BaseClass:21 - ========== SUITE EXECUTION STARTED ==========
+[INFO ] 2026-07-12 18:02:47.790 [main] BaseClass:23 - ConfigReader initialized successfully
+[INFO ] 2026-07-12 18:02:47.844 [main] BaseClass:29 - Initializing WebDriver for browser: chrome
+[INFO ] 2026-07-12 18:02:47.844 [main] BaseClass:37 - URL from config: https://www.saucedemo.com/
+[INFO ] 2026-07-12 18:02:47.846 [main] BrowserFactory:21 - Initializing browser: chrome
+[INFO ] 2026-07-12 18:02:47.847 [main] BrowserFactory:25 - Setting up ChromeDriver...
+[INFO ] 2026-07-12 18:02:50.122 [main] BrowserFactory:33 - ChromeDriver initialized successfully
+[INFO ] 2026-07-12 18:02:50.893 [main] BaseClass:43 - Navigated to URL: https://www.saucedemo.com/
+[INFO ] 2026-07-12 18:02:51.122 [main] BaseClass:22 - Starting testValidLogin
+[INFO ] 2026-07-12 18:02:51.183 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 18:02:51.217 [main] BasePage:66 - Verifying login page loaded
+[INFO ] 2026-07-12 18:03:11.643 [main] BaseClass:49 - Closing WebDriver
+[INFO ] 2026-07-12 18:03:11.894 [main] BaseClass:57 - ========== SUITE EXECUTION COMPLETED ==========
+[INFO ] 2026-07-12 18:09:15.857 [main] BaseClass:21 - ========== SUITE EXECUTION STARTED ==========
+[INFO ] 2026-07-12 18:09:15.863 [main] BaseClass:23 - ConfigReader initialized successfully
+[INFO ] 2026-07-12 18:09:15.908 [main] BaseClass:29 - Initializing WebDriver for browser: chrome
+[INFO ] 2026-07-12 18:09:15.908 [main] BaseClass:37 - URL from config: https://www.saucedemo.com/
+[INFO ] 2026-07-12 18:09:15.910 [main] BrowserFactory:21 - Initializing browser: chrome
+[INFO ] 2026-07-12 18:09:15.910 [main] BrowserFactory:25 - Setting up ChromeDriver...
+[INFO ] 2026-07-12 18:09:18.287 [main] BrowserFactory:33 - ChromeDriver initialized successfully
+[INFO ] 2026-07-12 18:09:19.865 [main] BaseClass:43 - Navigated to URL: https://www.saucedemo.com/
+[INFO ] 2026-07-12 18:09:20.066 [main] BaseClass:22 - Starting testValidLogin
+[INFO ] 2026-07-12 18:09:20.154 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 18:09:20.216 [main] BasePage:66 - Verifying login page loaded
+[INFO ] 2026-07-12 18:09:40.505 [main] BaseClass:49 - Closing WebDriver
+[INFO ] 2026-07-12 18:09:40.768 [main] BaseClass:57 - ========== SUITE EXECUTION COMPLETED ==========
+[INFO ] 2026-07-12 18:12:33.175 [main] BaseClass:21 - ========== SUITE EXECUTION STARTED ==========
+[INFO ] 2026-07-12 18:12:33.184 [main] BaseClass:23 - ConfigReader initialized successfully
+[INFO ] 2026-07-12 18:12:33.221 [main] BaseClass:29 - Initializing WebDriver for browser: chrome
+[INFO ] 2026-07-12 18:12:33.222 [main] BaseClass:37 - URL from config: https://www.saucedemo.com/
+[INFO ] 2026-07-12 18:12:33.225 [main] BrowserFactory:21 - Initializing browser: chrome
+[INFO ] 2026-07-12 18:12:33.226 [main] BrowserFactory:25 - Setting up ChromeDriver...
+[INFO ] 2026-07-12 18:12:35.529 [main] BrowserFactory:33 - ChromeDriver initialized successfully
+[INFO ] 2026-07-12 18:12:35.767 [main] BaseClass:43 - Navigated to URL: https://www.saucedemo.com/
+[INFO ] 2026-07-12 18:12:36.277 [main] BaseClass:30 - Starting testHomePageLoadsSuccessfully
+[INFO ] 2026-07-12 18:12:36.367 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 18:12:36.405 [main] BasePage:66 - Verifying login page loaded
+[INFO ] 2026-07-12 18:12:56.760 [main] BaseClass:55 - Starting testInventoryItemsAreDisplayed
+[INFO ] 2026-07-12 18:12:56.760 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 18:12:56.768 [main] BasePage:32 - Entering username: standard_user
+[INFO ] 2026-07-12 18:12:57.004 [main] BasePage:39 - Entering password: secret_sauce
+[INFO ] 2026-07-12 18:12:57.125 [main] BasePage:46 - Clicking on Login button
+[INFO ] 2026-07-12 18:12:57.325 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 18:12:57.325 [main] BasePage:45 - Getting inventory items count
+[INFO ] 2026-07-12 18:12:57.361 [main] BaseClass:62 - Found 6 inventory items
+[INFO ] 2026-07-12 18:12:57.365 [main] BaseClass:74 - Starting testAddItemToCart
+[INFO ] 2026-07-12 18:12:57.365 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 18:12:57.371 [main] BasePage:32 - Entering username: standard_user
+[INFO ] 2026-07-12 18:13:17.501 [main] BaseClass:99 - Starting testSortItems
+[INFO ] 2026-07-12 18:13:17.501 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 18:13:17.506 [main] BasePage:32 - Entering username: standard_user
+[INFO ] 2026-07-12 18:13:37.824 [main] BaseClass:122 - Starting testNavigateToCart
+[INFO ] 2026-07-12 18:13:37.826 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 18:13:37.826 [main] BasePage:32 - Entering username: standard_user
+[INFO ] 2026-07-12 18:13:57.892 [main] BaseClass:143 - Starting testAddMultipleItemsToCart
+[INFO ] 2026-07-12 18:13:57.892 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 18:13:57.908 [main] BasePage:32 - Entering username: standard_user
+[INFO ] 2026-07-12 18:14:18.251 [main] BaseClass:170 - Starting testHomePageTitle
+[INFO ] 2026-07-12 18:14:18.252 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 18:14:18.252 [main] BasePage:32 - Entering username: standard_user
+[INFO ] 2026-07-12 18:14:38.704 [main] BaseClass:189 - Starting testLogoutFromHomePage
+[INFO ] 2026-07-12 18:14:38.704 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 18:14:38.704 [main] BasePage:32 - Entering username: standard_user
+[INFO ] 2026-07-12 18:14:59.211 [main] BaseClass:22 - Starting testValidLogin
+[INFO ] 2026-07-12 18:14:59.214 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 18:14:59.224 [main] BasePage:66 - Verifying login page loaded
+[INFO ] 2026-07-12 18:15:19.581 [main] BaseClass:40 - Starting testInvalidLogin
+[INFO ] 2026-07-12 18:15:19.582 [main] BasePage:24 - BasePage initialized
+[INFO ] 2026-07-12 18:15:19.583 [main] BasePage:32 - Entering username: invalid_user
+[INFO ] 2026-07-12 18:15:40.118 [main] BaseClass:49 - Closing WebDriver
+[INFO ] 2026-07-12 18:15:40.404 [main] BaseClass:57 - ========== SUITE EXECUTION COMPLETED ==========
