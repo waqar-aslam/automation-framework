@@ -74,3 +74,76 @@ This framework provides a comprehensive solution for automated web testing with:
 ---
 
 ## 📁 Project Structure
+automation-framework/
+├── pom.xml # Maven configuration
+├── README.md # Project documentation
+├── .gitignore # Git ignore file
+├── run-tests.bat # Windows test runner
+├── run-tests.sh # Mac/Linux test runner
+├── src/
+│ ├── main/
+│ │ ├── java/
+│ │ │ └── com/
+│ │ │ └── framework/
+│ │ │ ├── base/ # Base classes
+│ │ │ │ ├── BaseClass.java # Test setup/teardown
+│ │ │ │ └── BasePage.java # Page object base
+│ │ │ ├── config/ # Configuration
+│ │ │ │ └── ConfigReader.java
+│ │ │ ├── pages/ # Page Objects (POM)
+│ │ │ │ ├── LoginPage.java
+│ │ │ │ ├── HomePage.java
+│ │ │ │ ├── CartPage.java
+│ │ │ │ ├── CheckoutPage.java
+│ │ │ │ ├── CheckoutOverviewPage.java
+│ │ │ │ └── CheckoutCompletePage.java
+│ │ │ ├── utils/ # Utility classes
+│ │ │ │ ├── BrowserFactory.java
+│ │ │ │ └── WebDriverHelper.java
+│ │ │ └── listeners/ # Test Listeners
+│ │ │ ├── TestListener.java
+│ │ │ └── AllureListener.java
+│ │ └── resources/
+│ │ ├── config.properties # Configuration file
+│ │ └── log4j2.properties # Logging configuration
+│ └── test/
+│ ├── java/
+│ │ └── com/
+│ │ └── framework/
+│ │ └── testcases/ # Test Classes
+│ │ ├── LoginTest.java
+│ │ └── HomeTest.java
+│ └── resources/
+│ └── testng.xml # TestNG Suite
+├── logs/ # Application logs
+└── target/ # Build output
+├── surefire-reports/ # Test reports
+└── allure-results/ # Allure results
+
+
+---
+
+## 📋 Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+| Software | Version | Installation Guide |
+|----------|---------|-------------------|
+| **Java JDK** | 11 or higher | [Download](https://www.oracle.com/java/technologies/downloads/) |
+| **Maven** | 3.9.x | [Download](https://maven.apache.org/download.cgi) |
+| **Git** | Latest | [Download](https://git-scm.com/downloads) |
+| **IDE** | IntelliJ/Eclipse | [IntelliJ](https://www.jetbrains.com/idea/download/) |
+| **Chrome Browser** | Latest | [Download](https://www.google.com/chrome/) |
+
+### Verify Installation
+
+```bash
+# Check Java
+java -version
+
+# Check Maven
+mvn -version
+
+# Check Git
+git --version
+
